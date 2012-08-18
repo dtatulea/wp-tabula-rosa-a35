@@ -175,7 +175,6 @@ while (have_posts()) : the_post(); ?>
 			endif;
 			?>
 			<h2 class="posttitle"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-			<div class="post-author">written by: <?php the_author(); ?></div>
 			<?php if (is_archive() || is_search() ) : // Display excerpts for archives and search ?>
 				<div class="entry">
 					<?php the_excerpt(); ?>
@@ -185,11 +184,6 @@ while (have_posts()) : the_post(); ?>
 					<?php the_content('Continue Reading &raquo;'); ?>
 				</div>
 			<?php endif; ?>
-			<div class="post-metadata">
-				<p><strong>Date:</strong> <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_time('F jS, Y') ?></a> | <strong>Comments:</strong> <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
-				<p><strong>Category:</strong> <?php the_category(', ') ?></p>
-				<?php the_tags('<p><strong>Tags:</strong> ', ', ', '</p>'); ?>
-			</div>
 		</div>
 	<?php endif; // If statement that broke the posts into parts based on categories
 endwhile; // End of the Loop ?>
