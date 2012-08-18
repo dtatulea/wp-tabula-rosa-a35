@@ -15,7 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 *
 {
-	font-family: Geneva;
+	font-family: helvelt;
 	font-size: 95%;
 }
 
@@ -28,8 +28,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 @font-face 
 {
-  font-family: elsa; 
-  src: url( /Elsa-Regular.otf ) format("opentype"); 
+  font-family: helve;
+  src: url( /HelveticaNeueLTCom-Cn.ttf ) format("truetype");
+}
+
+@font-face
+{
+  font-family: helvelt;
+  src: url( /HelveticaNeueLTCom-Lt.ttf ) format("truetype");
 }
 
 
@@ -158,7 +164,7 @@ a img {border: none;}
 h3.widgettitle { font-weight: normal; }
 
 .posttitle a {
-	font-family: elsa;
+	font-family: helve;
 	color: #111 !important; /* Blah this is an ugly hack to fix IE issues*/
 	text-decoration: none; 
 }
@@ -281,7 +287,7 @@ pre {
 #left-col 
 {
 	text-align: right;
-	font-family: elsa;
+	//font-family: helve;
 }
 
 .menu-item,
