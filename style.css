@@ -157,6 +157,13 @@ a img {border: none;}
 .widgettitle a { color: black !important; }
 h3.widgettitle { font-weight: normal; }
 
+h3.menu-like {
+	font-size: 19px;
+	color: #3C3C3C;
+	text-decoration: none;
+}
+
+
 .posttitle a {
 	font-family: elsa;
 	color: #111 !important; /* Blah this is an ugly hack to fix IE issues*/
