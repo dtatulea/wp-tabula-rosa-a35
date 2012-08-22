@@ -16,7 +16,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 *
 {
 	font-family: helvelt;
-	font-size: 95%;
 }
 
 
@@ -245,7 +244,7 @@ pre {
 #blog-title {
 	font-size: 2em;
 	margin: 0;
-	padding: 0 15px;
+	padding: 0.23em 0.37em 0em 0.3em;
 	display: inline;
 	vertical-align: middle;
 	background-color: black;
